@@ -4,20 +4,22 @@ include "../../utils/Name.utils.php";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>All Movies</title>
+    <title>Top Rated Movies</title>
     <link rel="stylesheet" href="../../assets/css/name.css">
 </head>
 <body>
-    <header><h1>🎬 All Movies</h1></header>
+    <header><h1>🌟 Top Rated Movies</h1></header>
     <main>
         <?php
         for ($i = 0; $i < count($movies); $i++) {
             $title = $movies[$i];
             $rating = $ratings[$i];
-            include "../../components/name.component.php";
+            if ($rating >= 7) {
+                include "../../components/name.component.php";
+            }
         }
         ?>
-        <a href="topRated.php">See Top Rated Movies ➤</a>
+        <a href="index.php">⟵ Back to All Movies</a>
     </main>
 </body>
 </html>
