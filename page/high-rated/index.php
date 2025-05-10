@@ -1,12 +1,12 @@
 <?php
-include '..\..\utils\movies.utils.php';
+include '../../utils/movies.utils.php';
 $title = 'High Rated Movies';
-include '..\..\components\navbar.component.php';
+include '../../components/navbar.component.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="\assets\css\style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <title><?= $title ?></title>
 </head>
 <body>
