@@ -8,6 +8,6 @@
 <body>
     <h1>Welcome to MOVIE RATES!</h1>
     <p>View all the MOVIE RATED</p>
-    <a href="pages/home/index.php" class="button">Go to Movie List</a>
+    <a href="page/home/index.php" class="button">Go to Movie List</a>
 </body>
 </html>
