@@ -17,7 +17,7 @@ include '../../components/navbar.component.php';
         <?php if ($movie['rating'] > 7): ?>
             <div class="movie-card">
                 <div class="movie-item">
-                    <img src="/assets/img/<?= $movie['image']; ?>" alt="<?= $movie['title']; ?>">
+                    <img src="../../assets/img/<?= $movie['image']; ?>" alt="<?= $movie['title']; ?>">
                 </div>
                 <div class="movie-info">
                     <h3><?= $movie['title']; ?></h3>

@@ -13,7 +13,7 @@
     <?php foreach ($movies as $movie): ?>
         <div class="movie-card">
             <div class="movie-item">
-                <img src="/assets/img/<?= $movie['image']; ?>" alt="<?= $movie['title']; ?>">
+                <img src="../../assets/img/<?= $movie['image']; ?>" alt="<?= $movie['title']; ?>">
             </div>
             <div class="movie-info">
                 <h3><?= $movie['title']; ?></h3>
