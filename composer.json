@@ -1,5 +1,5 @@
 {
-    "name": "RylieB/php-pages",
+    "name": "rylieb/php-pages",
     "description": "A simple PHP MOVIE RATES system.",
     "type": "project",
     "autoload": {
