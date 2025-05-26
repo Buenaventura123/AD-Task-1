@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../../bootstrap.php';
+require_once realpath(__DIR__ . '/../../bootstrap.php');
 
 require_once BASE_PATH . '/utils/movies.utils.php';
 require_once BASE_PATH . '/components/navbar.component.php';
