@@ -66,10 +66,10 @@ This program is a straightforward application that displays a collection of movi
 
 ### Key Components
 
-- 
+- Dynamic Filtering
+Pages like High Rated and Low Rated filter movies based on rating thresholds.
 
 ### Technology
-
 <!-- TODO: List of Technology Used -->
 #### Language
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
